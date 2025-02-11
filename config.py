@@ -1,12 +1,12 @@
 from os import environ
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "28713982"))
+API_HASH = environ.get("API_HASH", "237e15f7c006b10b4fa7c46fee7a5377")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", ""))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-ADMINS = int(environ.get("ADMINS", ""))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002100963256"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002100963256"))
+ADMINS = int(environ.get("ADMINS", "7195990500"))
 
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_URI = environ.get("DB_URI", "")
